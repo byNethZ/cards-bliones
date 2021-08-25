@@ -1,0 +1,50 @@
+{
+    "name": "#Bliones Card Digital",
+    "short_name": "#Bliones",
+    "description": "Desde hace más de 3 años, BLIONES ha mantenido el compromiso de proveer productos con diseños únicos, que son amigables con el medio ambiente y visualmente",
+    "background_color": "#fff",
+    "theme_color": "#0034c8",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "build/img/icono_512.webp",
+        "sizes": "512x483",
+        "type": "image/webp"
+      },
+      {
+        "src": "build/img/icono_256.webp",
+        "sizes": "256x242",
+        "type": "image/webp"
+      },
+      {
+        "src": "build/img/icono_128.webp",
+        "sizes": "128x121",
+        "type": "image/webp"
+      },
+      {
+        "src": "build/img/icono_144.webp",
+        "sizes": "144x144",
+        "type": "image/webp",
+        "purpose": "any"
+      },
+      {
+        "src": "build/img/icono_64.webp",
+        "sizes": "64x61",
+        "type": "image/webp"
+      },
+      {
+        "src": "build/img/icono_32.webp",
+        "sizes": "32x31",
+        "type": "image/webp"
+      },
+      {
+        "src": "build/img/icono_16.webp",
+        "sizes": "16x16",
+        "type": "image/webp"
+      }
+    ]
+}
