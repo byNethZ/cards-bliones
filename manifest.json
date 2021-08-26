@@ -33,7 +33,8 @@
       {
         "src": "build/img/icono_144.webp",
         "sizes": "144x144",
-        "type": "image/webp"
+        "type": "image/webp",
+        "purpose": "any maskable"
       },
       {
         "src": "build/img/icono_128.webp",
