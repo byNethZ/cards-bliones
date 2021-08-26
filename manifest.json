@@ -1,65 +1,26 @@
 {
-    "name": "Bliones Card Digital",
-    "short_name": "Bliones",
-    "description": "Desde hace más de 3 años, BLIONES ha mantenido el compromiso de proveer productos con diseños únicos, que son amigables con el medio ambiente y visualmente",
-    "background_color": "#0130CE",
-    "theme_color": "#0034c8",
-    "orientation": "portrait",
-    "display": "fullscreen",
-    "start_url": "/index.html?from=homescreen",
-    "scope": "/",
-    "lang": "es-MX",
-    "icons": [
-      {
-        "src": "build/img/icono_512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_384.png",
-        "sizes": "384x384",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_144.png",
-        "sizes": "144x144",
-        "type": "image/png",
-        "purpose": "any maskable"
-      },
-      {
-        "src": "build/img/icono_128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_96.png",
-        "sizes": "96x96",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_72.png",
-        "sizes": "72x72",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_64.png",
-        "sizes": "64x64",
-        "type": "image/png"
-      },
-      {
-        "src": "build/img/icono_32.png",
-        "sizes": "32x32",
-        "type": "image/png"
-      }
-    ]
+  "name": "Bliones Card Digital",
+  "short_name": "Bliones",
+  "description": "Desde hace más de 3 años, BLIONES ha mantenido el compromiso de proveer productos con diseños únicos, que son amigables con el medio ambiente y visualmente",
+  "background_color": "#0130CE",
+  "theme_color": "#0034c8",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "start_url": "/index.html?from=homescreen",
+  "scope": "/",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "build/img/assets/manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "build/img/assets/manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
 }
