@@ -2,7 +2,7 @@
   "name": "Bliones Card Digital",
   "short_name": "Bliones",
   "description": "Desde hace más de 3 años, BLIONES ha mantenido el compromiso de proveer productos con diseños únicos, que son amigables con el medio ambiente y visualmente",
-  "background_color": "#0130CE",
+  "background_color": "#fff",
   "theme_color": "#0034c8",
   "orientation": "portrait",
   "display": "fullscreen",
