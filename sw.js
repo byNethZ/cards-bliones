@@ -49,16 +49,13 @@ self.addEventListener('activate', e => {
     caches.keys()
       .then(cacheNames => {
         return Promise.all(
-          cacheNames.map(cacheName => {
-            //Eliminamos lo que ya no se necesita en cache
-            if (cacheWhitelist.indexOf(cacheName) === -1) {
-              return caches.delete(cacheName)
-            }
-          })
+          cacheNames
+            .map(c => c.split('-'))
+            .filter(c => c[0] === 'cachestore')
+            .filter(c => c[1] !== version)
+            .map(c => caches.delete(c.join('-')))
         )
       })
-      // Le indica al SW activar el cache actual
-      .then(() => self.clients.claim())
   )
 })
 
@@ -66,14 +63,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   //Responder ya sea con el objeto en caché o continuar y buscar la url real
   e.respondWith(
-    caches.match(e.request)
-      .then(res => {
-        if (res) {
-          //recuperar del cache
-          return res
-        }
-        //recuperar de la petición a la url
-        return fetch(e.request)
-      })
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
   )
 })
