@@ -6,8 +6,8 @@
   "theme_color": "#0034c8",
   "orientation": "portrait",
   "display": "fullscreen",
-  "start_url": "/index.html?from=homescreen",
-  "scope": "/",
+  "start_url": "./index.html?from=homescreen",
+  "scope": "./",
   "lang": "es-MX",
   "icons": [
     {
