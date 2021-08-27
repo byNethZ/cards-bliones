@@ -1,5 +1,5 @@
 ;
-const CACHE_NAME = 'v1_cache_bliones_digital_card',
+const CACHE_NAME = 'v2_cache_bliones_digital_card',
   urlsToCache = [
     '/',
     'https://kit.fontawesome.com/c2462c3380.js',
